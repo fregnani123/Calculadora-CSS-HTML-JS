@@ -1,0 +1,53 @@
+ 
+*{padding: 0;margin: 0;}
+body{
+background-color: rgba(255, 255, 255, 0.205);
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+
+#conteiner {
+position: absolute;
+text-align: center;
+width: 330px;
+height: 450px;
+background-color: rgba(145, 145, 201, 0.767);
+border-radius: 20px;
+box-shadow:10px 5px 5px rgba(0, 0, 0, 0.226);
+padding: 10px;
+}
+
+#resultado { 
+padding-right: 15px;
+font-size: 40px;    
+display: flex;  
+margin: auto;
+justify-content: end;  
+width: 280px;
+height: 50px; 
+background-color: rgb(245, 237, 237);
+margin-top: 10px;
+margin-bottom: 20px;
+border-radius: 10px;
+box-shadow:10px 5px 5px rgba(0, 0, 0, 0.295);
+overflow:hidden;
+}
+
+#btn {
+margin: auto;
+width: 300px;
+border-radius: 10px;
+
+}
+#tela{ margin-bottom: 15px;}
+.botao {
+    width: 70px;
+    height: 60px;
+    font-size: 20px;   
+}
+
+.botao:hover {
+    background-color: rgba(0, 0, 0, 0.103);
+    border: none;
+} 
